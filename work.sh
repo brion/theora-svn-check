@@ -17,6 +17,6 @@ mkdir svn
 
 for x in *.ogv *.webm
 do
-  encode ffmpeg2theora "$x" "stock/$x.360p.ogv"
+  encode /opt/ffmpeg2theora/bin/ffmpeg2theora "$x" "stock/$x.360p.ogv"
   encode /opt/theora/bin/ffmpeg2theora "$x" "svn/$x.360p.ogv"
 done
