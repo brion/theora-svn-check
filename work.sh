@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function encode {
 	ENCODER="$1"
